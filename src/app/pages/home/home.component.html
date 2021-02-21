@@ -1,0 +1,623 @@
+<div class="home">
+    <div class="subcontent">
+        <div class="subcon1">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="d-none d-lg-block">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+                    </ol>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active item1">
+                        <img src="assets/Images/home/img1.jpg" class="d-block w-100 card-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="head1">
+                                <p>Find Best Rental Car</p>
+                            </div>
+                            <div class="d-flex justify-content-center btngrp1">
+                                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                                    <input type="radio" class="btn-check" name="sedanbtn" id="btnradio1"
+                                        autocomplete="off" checked>
+                                    <label class="btn1 btn btn-outline-warning" for="btnradio1">
+                                        <i class="fas fa-arrow-alt-circle-left"></i> &nbsp; One Way Trip</label>
+
+                                    <input type="radio" class="btn-check" name="sedanbtn" id="btnradio2"
+                                        autocomplete="off">
+                                    <label class="btn2 btn btn-outline-warning" for="btnradio2">
+                                        <i class="fas fa-redo"></i>&nbsp;Round Trip</label>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center form1">
+                                <form class="row">
+                                    <h4 class="text-md-start"><em>Search for Cheap Rental Cars Wherever Your
+                                            Are</em>
+                                    </h4>
+                                    <div class="d-flex justify-content-center btngrp2">
+                                        <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio3"
+                                                autocomplete="off" checked>
+                                            <label class="btn1 btn btn-outline-warning" for="btnradio3">
+                                                <img src="assets/Images/home/sedan.png" alt="">&nbsp;
+                                                <strong>Sedan</strong>&nbsp;
+                                                <small><i>&#8377;13/KM</i></small>
+                                            </label>
+
+                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio4"
+                                                autocomplete="off">
+                                            <label class="btn2 btn btn-outline-warning" for="btnradio4">
+                                                <img src="assets/Images/home/SUV.png" alt="">&nbsp;
+                                                <strong>
+                                                    Premium Sedan
+                                                </strong>&nbsp;
+                                                <small><i>&#8377;14/Km</i></small>
+                                            </label>
+                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio5"
+                                                autocomplete="off">
+                                            <label class="btn3 btn btn-outline-warning" for="btnradio5">
+                                                <img src="assets/Images/home/sedan.png" alt="">&nbsp;
+                                                <strong>SUV</strong>&nbsp;
+                                                <small><i>&#8377;16/Km</i></small>
+                                            </label>
+                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio6"
+                                                autocomplete="off">
+                                            <label class="btn4 btn btn-outline-warning" for="btnradio6">
+                                                <img src="assets/Images/home/SUV.png" alt="">&nbsp;
+                                                <strong>Premium SUV</strong>&nbsp;
+                                                <small><i>&#8377;17/Km</i></small>
+                                            </label>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md col1">
+                                        <label for="validationDefault01" class="form-label float-md-start">Picking
+                                            Up
+                                            Location</label>
+                                        <div class="input-group mb-3">
+                                            <select class="form-select" id="inputGroupSelect01" required>
+                                                <option selected>Airport or Anywhere</option>
+                                                <option value="1">Adirampattinam</option>
+                                                <option value="2">Arakkonam</option>
+                                                <option value="3">Bangalore</option>
+                                                <option value="4">Chennai</option>
+                                            </select>
+                                            <label class="input-group-text" for="validationDefault01"><i
+                                                    class="fas fa-map-marker-alt"></i></label>
+                                        </div>
+                                        <label for="validationDefault02" class="form-label float-md-start">Dropping
+                                            Off
+                                            Location</label>
+                                        <div class="input-group mb-3">
+                                            <select class="form-select" id="inputGroupSelect02" required>
+                                                <option selected>Airport or Anywhere</option>
+                                                <option value="1">Adirampattinam</option>
+                                                <option value="2">Arakkonam</option>
+                                                <option value="3">Bangalore</option>
+                                                <option value="4">Chennai</option>
+                                            </select>
+                                            <label class="input-group-text" for="validationDefault02"><i
+                                                    class="fas fa-map-marker-alt"></i></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md col2">
+                                        <div class="row">
+                                            <div class="col-md">
+                                                <label for="validationDefault03"
+                                                    class="form-label float-md-start">Picking
+                                                    Up Date</label>
+                                                <div class="input-group mb-3">
+                                                    <input class="form-control" type="date" placeholder="dd/mm/yyyy"
+                                                        required>
+                                                </div>
+                                                <label for="validationDefault04"
+                                                    class="form-label float-md-start">Estimated Kilometer</label>
+                                                <div class="input-group mb-3">
+                                                    <input class="form-control" type="text"
+                                                        aria-label="readonly input example" readonly
+                                                        placeholder="Estimated Kilometer">
+                                                    <label class="input-group-text" for="validationDefault04">
+                                                        <i class="fas fa-tachometer-alt"></i>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md">
+                                                <label for="validationDefault05"
+                                                    class="form-label float-md-start">Picking
+                                                    Up Time</label>
+                                                <div class="input-group mb-3">
+                                                    <input class="form-control" type="time"
+                                                        placeholder="Readonly input here..." aria-label="time" required>
+                                                </div>
+                                                <label for="validationDefault06"
+                                                    class="form-label float-md-start">Estimated Fare</label>
+                                                <div class="input-group mb-3">
+                                                    <input class="form-control" type="number" value="INR"
+                                                        aria-label="readonly input example" readonly
+                                                        placeholder="Estimated Fare">
+                                                    <label class="input-group-text" for="validationDefault06">
+                                                        <i class="fas fa-rupee-sign"></i>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-warning btn-lg float-md-end" type="submit"><em>Book
+                                                Ride</em></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item item2">
+                        <img src="assets/Images/home/img1.jpg" class="d-block w-100 card-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="row">
+                                <div class="col-md contenthead">
+                                    <div class="head2">
+                                        <h2>Find Your Car!</h2>
+                                        <div class="button1">
+                                            <a name="" id="" class="btn btn-outline-warning btn-lg text-uppercase"
+                                                role="button" (click)="gotocars()"><em>See All Vehicles</em></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md form2">
+                                    <form class="row needs-validation">
+                                        <h4 class="text-md-start"><em>Search for Cheap Rental Cars Wherever Your
+                                                Are</em>
+                                        </h4>
+                                        <div class="d-flex justify-content-md-center contentmain">
+                                            <div class="d-flex flex-column">
+                                                <div class="btn-group btn-group-lg" role="group"
+                                                    aria-label="Basic example">
+                                                    <input type="radio" class="btn-check" name="btnradio" id="btnradio7"
+                                                        autocomplete="off" checked>
+                                                    <label class="btn1 btn btn-outline-warning" for="btnradio7">
+                                                        <img src="assets/Images/home/sedan.png" alt="">&nbsp;
+                                                        <strong>Sedan</strong>&nbsp;
+                                                        <small><i>&#8377;13/KM</i></small>
+                                                    </label>
+
+                                                    <input type="radio" class="btn-check" name="btnradio" id="btnradio8"
+                                                        autocomplete="off">
+                                                    <label class="btn2 btn btn-outline-warning" for="btnradio8">
+                                                        <img src="assets/Images/home/SUV.png" alt="">&nbsp;
+                                                        <strong>
+                                                            Premium Sedan
+                                                        </strong>&nbsp;
+                                                        <small><i>&#8377;14/Km</i></small>
+                                                    </label>
+                                                    <input type="radio" class="btn-check" name="btnradio" id="btnradio9"
+                                                        autocomplete="off">
+                                                    <label class="btn3 btn btn-outline-warning" for="btnradio9">
+                                                        <img src="assets/Images/home/sedan.png" alt="">&nbsp;
+                                                        <strong>SUV</strong>&nbsp;
+                                                        <small><i>&#8377;16/Km</i></small>
+                                                    </label>
+                                                    <input type="radio" class="btn-check" name="btnradio"
+                                                        id="btnradio10" autocomplete="off">
+                                                    <label class="btn4 btn btn-outline-warning" for="btnradio10">
+                                                        <img src="assets/Images/home/SUV.png" alt="">&nbsp;
+                                                        <strong>Premium SUV</strong>&nbsp;
+                                                        <small><i>&#8377;17/Km</i></small>
+                                                    </label>
+
+                                                </div>
+                                                <div class="col-md-12 col1">
+                                                    <label for="validationDefault07"
+                                                        class="form-label float-md-start">Picking Up
+                                                        Location</label>
+                                                    <div class="input-group mb-3">
+                                                        <select class="form-select" id="inputGroupSelect07" required>
+                                                            <option selected>Airport or Anywhere</option>
+                                                            <option value="1">Adirampattinam</option>
+                                                            <option value="2">Arakkonam</option>
+                                                            <option value="3">Bangalore</option>
+                                                            <option value="4">Chennai</option>
+                                                        </select>
+                                                        <label class="input-group-text" for="validationDefault07"><i
+                                                                class="fas fa-map-marker-alt"></i></label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 col2">
+                                                    <label for="validationDefault08"
+                                                        class="form-label float-md-start">Dropping Off
+                                                        Location</label>
+                                                    <div class="input-group mb-3">
+                                                        <select class="form-select" id="inputGroupSelect08" required>
+                                                            <option selected>Airport or Anywhere</option>
+                                                            <option value="1">Adirampattinam</option>
+                                                            <option value="2">Arakkonam</option>
+                                                            <option value="3">Bangalore</option>
+                                                            <option value="4">Chennai</option>
+                                                        </select>
+                                                        <label class="input-group-text" for="validationDefault08"><i
+                                                                class="fas fa-map-marker-alt"></i></label>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-row">
+                                                    <div class="col-md colsub1">
+                                                        <label for="validationDefault09"
+                                                            class="form-label float-md-start">Picking
+                                                            Up Date</label>
+                                                        <div class="input-group mb-3">
+                                                            <input class="form-control" type="date"
+                                                                placeholder="dd/mm/yyyy" required
+                                                                id="validationDefault09">
+                                                        </div>
+                                                        <label for="validationDefault10"
+                                                            class="form-label float-md-start">Estimated
+                                                            Kilometer</label>
+                                                        <div class="input-group mb-3">
+                                                            <input class="form-control" type="text"
+                                                                aria-label="readonly input example" readonly
+                                                                placeholder="Estimated Kilometer">
+                                                            <label class="input-group-text" for="validationDefault10">
+                                                                <i class="fas fa-tachometer-alt"></i>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md colsub2">
+                                                        <label for="validationDefault17"
+                                                            class="form-label float-md-start">Picking
+                                                            Up Time</label>
+                                                        <div class="input-group mb-3">
+                                                            <input class="form-control" type="time"
+                                                                placeholder="Readonly input here..." aria-label="time"
+                                                                required>
+                                                        </div>
+                                                        <label for="validationDefault12"
+                                                            class="form-label float-md-start">Estimated Fare</label>
+                                                        <div class="input-group mb-3">
+                                                            <input class="form-control" type="number" value="INR"
+                                                                aria-label="readonly input example" readonly
+                                                                placeholder="Estimated Fare">
+                                                            <label class="input-group-text" for="validationDefault12">
+                                                                <i class="fas fa-rupee-sign"></i>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 submitbtn shadow">
+                                            <button class="btn btn-warning btn-lg float-md-end" type="submit"><em>Book
+                                                    Ride</em></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item item3">
+                        <img src="assets/Images/home/img2.jpg" class="d-block w-100 card-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="row">
+                                <div class="col-md contenthead">
+                                    <div class="head3">
+                                        <h2>For rental Cars</h2>
+                                        <h3>Best Deals</h3>
+                                        <div class="button1">
+                                            <a name="" id="" class="btn btn-outline-dark btn-lg text-uppercase"
+                                                role="button" (click)="gotocars()"><em>See All Vehicles</em></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md form3">
+                                    <form class="row needs-validation">
+                                        <h4 class="text-md-start"><em>Search for Cheap Rental Cars Wherever Your
+                                                Are</em>
+                                        </h4>
+                                        <div class="d-flex justify-content-md-center contentmain">
+                                            <div class="d-flex flex-column">
+                                                <div class="btn-group btn-group-lg" role="group"
+                                                    aria-label="Basic example">
+                                                    <input type="radio" class="btn-check" name="btnradio"
+                                                        id="btnradio11" autocomplete="off" checked>
+                                                    <label class="btn1 btn btn-outline-warning" for="btnradio11">
+                                                        <img src="assets/Images/home/sedan.png" alt="">&nbsp;
+                                                        <strong>Sedan</strong>&nbsp;
+                                                        <small><i>&#8377;13/KM</i></small>
+                                                    </label>
+
+                                                    <input type="radio" class="btn-check" name="btnradio"
+                                                        id="btnradio12" autocomplete="off">
+                                                    <label class="btn2 btn btn-outline-warning" for="btnradio12">
+                                                        <img src="assets/Images/home/SUV.png" alt="">&nbsp;
+                                                        <strong>
+                                                            Premium Sedan
+                                                        </strong>&nbsp;
+                                                        <small><i>&#8377;14/Km</i></small>
+                                                    </label>
+                                                    <input type="radio" class="btn-check" name="btnradio"
+                                                        id="btnradio13" autocomplete="off">
+                                                    <label class="btn3 btn btn-outline-warning" for="btnradio13">
+                                                        <img src="assets/Images/home/sedan.png" alt="">&nbsp;
+                                                        <strong>SUV</strong>&nbsp;
+                                                        <small><i>&#8377;16/Km</i></small>
+                                                    </label>
+                                                    <input type="radio" class="btn-check" name="btnradio"
+                                                        id="btnradio14" autocomplete="off">
+                                                    <label class="btn4 btn btn-outline-warning" for="btnradio14">
+                                                        <img src="assets/Images/home/SUV.png" alt="">&nbsp;
+                                                        <strong>Premium SUV</strong>&nbsp;
+                                                        <small><i>&#8377;17/Km</i></small>
+                                                    </label>
+
+                                                </div>
+                                                <div class="col-md-12 col1">
+                                                    <label for="validationDefault13"
+                                                        class="form-label float-md-start">Picking Up
+                                                        Location</label>
+                                                    <div class="input-group mb-3">
+                                                        <select class="form-select" id="inputGroupSelect13" required>
+                                                            <option selected>Airport or Anywhere</option>
+                                                            <option value="1">Adirampattinam</option>
+                                                            <option value="2">Arakkonam</option>
+                                                            <option value="3">Bangalore</option>
+                                                            <option value="4">Chennai</option>
+                                                        </select>
+                                                        <label class="input-group-text" for="validationDefault13"><i
+                                                                class="fas fa-map-marker-alt"></i></label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 col2">
+                                                    <label for="validationDefault14"
+                                                        class="form-label float-md-start">Dropping Off
+                                                        Location</label>
+                                                    <div class="input-group mb-3">
+                                                        <select class="form-select" id="inputGroupSelect14" required>
+                                                            <option selected>Airport or Anywhere</option>
+                                                            <option value="1">Adirampattinam</option>
+                                                            <option value="2">Arakkonam</option>
+                                                            <option value="3">Bangalore</option>
+                                                            <option value="4">Chennai</option>
+                                                        </select>
+                                                        <label class="input-group-text" for="validationDefault14"><i
+                                                                class="fas fa-map-marker-alt"></i></label>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-row">
+                                                    <div class="col-md colsub1">
+                                                        <label for="validationDefault15"
+                                                            class="form-label float-md-start">Picking
+                                                            Up Date</label>
+                                                        <div class="input-group mb-3">
+                                                            <input class="form-control" type="date"
+                                                                placeholder="dd/mm/yyyy" required
+                                                                id="validationDefault15">
+                                                        </div>
+                                                        <label for="validationDefault16"
+                                                            class="form-label float-md-start">Estimated
+                                                            Kilometer</label>
+                                                        <div class="input-group mb-3">
+                                                            <input class="form-control" type="text"
+                                                                aria-label="readonly input example" readonly
+                                                                placeholder="Estimated Kilometer">
+                                                            <label class="input-group-text" for="validationDefault16">
+                                                                <i class="fas fa-tachometer-alt"></i>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md colsub2">
+                                                        <label for="validationDefault17"
+                                                            class="form-label float-md-start">Picking
+                                                            Up Time</label>
+                                                        <div class="input-group mb-3">
+                                                            <input class="form-control" type="time"
+                                                                placeholder="Readonly input here..." aria-label="time"
+                                                                required>
+                                                        </div>
+                                                        <label for="validationDefault18"
+                                                            class="form-label float-md-start">Estimated Fare</label>
+                                                        <div class="input-group mb-3">
+                                                            <input class="form-control" type="number" value="INR"
+                                                                aria-label="readonly input example" readonly
+                                                                placeholder="Estimated Fare">
+                                                            <label class="input-group-text" for="validationDefault18">
+                                                                <i class="fas fa-rupee-sign"></i>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 submitbtn shadow">
+                                            <button class="btn btn-warning btn-lg float-md-end" type="submit"><em>Book
+                                                    Ride</em></button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item item4">
+                        <img src="assets/Images/home/img3.jpg" class="d-block w-100 card-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="head4">
+                                <div class="text1">
+                                    <h2>For rental Cars</h2>
+                                    <span>Best Deals</span>
+                                </div>
+                                <div class="button1">
+                                    <a name="" id="" class="btn btn-outline-dark btn-lg text-uppercase" role="button"
+                                        (click)="gotocars()"><em>See All Vehicles</em></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-lg-block">
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                        data-bs-slide="prev">
+                        <div class="arrow1">
+                            <span class="icon1"><i class="fas fa-chevron-left"></i></span>
+                            <span class="visually-hidden">Previous</span>
+                        </div>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                        data-bs-slide="next">
+                        <div class="arrow1">
+                            <span class="icon1"><i class="fas fa-chevron-right flg"></i></span>
+                            <span class="visually-hidden">Next</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="subcon2">
+            <div class="d-flex justify-content-lg-around icongrp">
+                <div class="ico1">
+                    <div class="card border-dark">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="far fa-life-ring"></i></h5>
+                            <p class="card-text">
+                                <strong>7/24 Car Support</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ico2">
+                    <div class="card border-dark">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-calendar-alt"></i></h5>
+                            <p class="card-text">
+                                <strong>Reservation Anytime</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ico3">
+                    <div class="card border-dark">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-map-marker-alt"></i></h5>
+                            <p class="card-text">
+                                <strong>Lots of Locations</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subcon3">
+                <div class="d-none d-md-block">
+                    <div class="d-flex justify-content-md-center btngrp3">
+                    <div class="btn-group btn-group-lg" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio15" autocomplete="off"
+                            checked>
+                        <label class="btn1 btn btn-outline-warning" for="btnradio15">Sedan</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio16" autocomplete="off">
+                        <label class="btn2 btn btn-outline-warning" for="btnradio16">Premium Sedan</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio17" autocomplete="off">
+                        <label class="btn3 btn btn-outline-warning" for="btnradio17">SUV</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio18" autocomplete="off">
+                        <label class="btn4 btn btn-outline-warning" for="btnradio18">Premium SUV</label>
+                    </div>
+                </div>
+            </div>
+            <div class="d-sm-block d-md-none btngrp3">
+                <div class="btn-group " role="group" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio15" autocomplete="off"
+                        checked>
+                    <label class="btn1 btn btn-outline-warning" for="btnradio15">Sedan</label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio16" autocomplete="off">
+                    <label class="btn2 btn btn-outline-warning" for="btnradio16">Premium Sedan</label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio17" autocomplete="off">
+                    <label class="btn3 btn btn-outline-warning" for="btnradio17">SUV</label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio18" autocomplete="off">
+                    <label class="btn4 btn btn-outline-warning" for="btnradio18">Premium SUV</label>
+                </div>
+            </div>
+            <owl-carousel-o [options]="customOptions" class="carouselmain" id="carsbtm">
+                <ng-container *ngFor="let item of sedan; let i = index; let f = first; let l = last"
+                    class="cardcontainer">
+                    <ng-template carouselSlide>
+                        <div class="card" [style.margin]="(i ? '0px': '15px')" [style.margin]="(l ? '0px': '5px')">
+                            <img [src]="item.img" class="card-img-top img-fluid" alt="...">
+                            <div class="card-body text-start">
+                                <h5 class="card-title">{{item.cardtitle}}</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-warning"><em>Book Ride</em></a>
+                            </div>
+                        </div>
+                    </ng-template>
+                </ng-container>
+            </owl-carousel-o>
+        </div>
+        <div class="subcon4">
+            <div class="subcontainer1">
+                <div class="context1 container">
+                    <h2>What We Offer ?</h2>
+                    <div class="row mainrow1">
+                        <div class="col-md col1">
+                            <div class="row">
+                                <div class="col-md-3 colsub1">
+                                    <i class="fas fa-gift"></i>
+                                </div>
+                                <div class="col-md-9  colsub2">
+                                    <h3><strong>Flexibility</strong></h3>
+                                    <small>Great</small>
+                                </div>
+                            </div>
+                            <p>
+                                No waiting charges. Take any number of breaks or visit any place on your way to
+                                destination
+                                (Round trips).
+                            </p>
+                        </div>
+                        <div class="col-md col2">
+                            <div class="row">
+                                <div class=" col-md-3 colsub3">
+                                    <i class="fas fa-sort-amount-down"></i>
+                                </div>
+                                <div class="col-md-9  colsub4">
+                                    <h3><strong>Fare</strong></h3>
+                                    <small>Lowest</small>
+                                </div>
+                            </div>
+                            <p>
+                                Lowest fare cards in the market and among the rivals.
+                            </p>
+                        </div>
+                        <div class="col-md col3">
+                            <div class="row">
+                                <div class=" col-md-3 colsub5">
+                                    <i class="fas fa-id-card"></i>
+                                </div>
+                                <div class="col-md-9  colsub6">
+                                    <h3><strong>Quality Drivers</strong></h3>
+                                    <small>Professional</small>
+                                </div>
+                            </div>
+                            <p>
+                                Best rated & high-quality professional drivers to make your day a good one.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="subcontainer2">
+                        <p>
+                            <strong>To Know More</strong>
+                            <a name="" id="" class="btn" role="button" (click)="gotoabt()">Click
+                                Here
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

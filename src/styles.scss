@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../src/assets/main.style.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: 'dsquaremon'; /*a name to be used later*/
+    src: url('assets/fonts/Montserrat-Regular.ttf') format('truetype'); /*URL to font*/ 
+}
+.f-fam{
+    font-family: 'Roboto', sans-serif;
+}

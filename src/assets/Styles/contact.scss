@@ -1,0 +1,527 @@
+.container5 {
+    .head {
+        background: #f5f6f8;
+        color: #9ea6b1;
+        text-align: center;
+        h1 {
+            font-weight: 700;
+        }
+    }
+    .content-row {
+        .title:after {
+            content: "";
+            display: inline-block;
+            border-bottom: 2px solid $secondary;
+        }
+        .title2:after {
+            content: "";
+            display: inline-block;
+            border-bottom: 2px solid $secondary;
+        }
+        .title3:after {
+            content: "";
+            display: inline-block;
+            border-bottom: 2px solid $secondary;
+        }
+
+        .context1 {
+            .suncontent {
+                .subcon1 {
+                    .row {
+                        .ico1 {
+                            i {
+                                font-size: 20px;
+                                background-color: #d3d3d3;
+                                border-radius: 50px;
+                            }
+                        }
+                        .con1 {
+                            h5 {
+                                color: #5c5c5c;
+                            }
+                            a {
+                                text-decoration: none;
+                                color: #5c5c5c;
+                            }
+                        }
+                    }
+                    .row:hover {
+                        i {
+                            background-color: $primary;
+                            color: $secondary;
+                        }
+                        .con1 {
+                            a {
+                                text-decoration: none;
+                                color: $secondary;
+                                animation: blinker 1s linear;
+                                text-decoration: underline;
+                                cursor: pointer;
+                            }
+                            @keyframes blinker {
+                                50% {
+                                    opacity: 0.3;
+                                }
+                            }
+                        }
+                    }
+                }
+                .subcon2 {
+                    .row {
+                        .ico2 {
+                            i {
+                                background-color: #d3d3d3;
+                                border-radius: 50px;
+                            }
+                        }
+                        .con2 {
+                            h5 {
+                                color: #5c5c5c;
+                            }
+                            a {
+                                text-decoration: none;
+                                color: #5c5c5c;
+                            }
+                        }
+                    }
+                    .row:hover {
+                        i {
+                            background-color: $primary;
+                            color: $secondary;
+                        }
+                        .con2 {
+                            a {
+                                text-decoration: none;
+                                color: $secondary;
+                                animation: blinker 1s linear;
+                                text-decoration: underline;
+                                cursor: pointer;
+                            }
+                            @keyframes blinker {
+                                50% {
+                                    opacity: 0.3;
+                                }
+                            }
+                        }
+                    }
+                }
+                .subcon3 {
+                    .row {
+                        h3 {
+                            font-size: 28px;
+                            color: $secondary;
+                        }
+                        .btn1,
+                        .btn2 {
+                            button {
+                                border-radius: 50px;
+                                a {
+                                    text-decoration: none;
+                                    color: #ffffff;
+                                }
+                            }
+                        }
+                        a:hover {
+                            button {
+                                background: rgba(163, 17, 17, 0.692);
+                                border: rgba(163, 17, 17, 0.692);
+                            }
+                        }
+                        a:hover {
+                            button {
+                                background: rgba(7, 124, 7, 0.651);
+                                border: rgba(7, 124, 7, 0.651);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $laptop) {
+    /* styles for browsers larger than 960px; */
+    .container5 {
+        .head {
+            padding: 100px;
+        }
+        .content-row {
+            padding: 50px 30px;
+            margin: 0px;
+            .title:after {
+                width: 14rem;
+                margin-bottom: 8px;
+                margin-left: 5px;
+            }
+            .title2:after {
+                width: 15rem;
+                margin-bottom: 8px;
+                margin-left: 5px;
+            }
+            .title3:after {
+                width: 15rem;
+                margin-bottom: 8px;
+                margin-left: 5px;
+            }
+            .context1 {
+                .suncontent {
+                    .subcon1 {
+                        padding-top: 20px;
+                        .row {
+                            .ico1 {
+                                i {
+                                    padding: 20px;
+                                    font-size: 20px;
+                                    border-radius: 50px;
+                                }
+                            }
+                            .con1 {
+                                h5 {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                    .subcon2 {
+                        padding-top: 20px;
+                        .row {
+                            .ico2 {
+                                i {
+                                    padding: 20px;
+                                    font-size: 20px;
+                                    border-radius: 50px;
+                                }
+                            }
+                            .con2 {
+                                h5 {
+                                    font-size: 18px;
+                                }
+                                a {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                    .subcon3 {
+                        padding-top: 20px;
+                        .row {
+                            .btn1,
+                            .btn2 {
+                                padding: 20px 20px 20px 50px;
+                                button {
+                                    width: 65px;
+                                    padding: 20px;
+                                    border-radius: 50px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .context2 {
+                form {
+                    .row {
+                        padding-top: 20px;
+                        .submit-button {
+                            padding-top: 20px;
+                            button {
+                                width: 30%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $desktop) {
+    /* styles for browsers larger than 1440px; */
+    .container5 {
+        .head {
+            padding: 100px;
+            h1 {
+                font-size: 70px;
+            }
+        }
+        .content-row {
+            padding: 50px 0px;
+            margin: 0px 158px 0px 158px;
+            .title:after {
+                width: 20rem;
+                margin-bottom: 8px;
+                margin-left: 5px;
+            }
+            .title2:after {
+                width: 22rem;
+                margin-bottom: 8px;
+                margin-left: 5px;
+            }
+            .title3:after {
+                width: 20rem;
+                margin-bottom: 8px;
+                margin-left: 5px;
+            }
+            .context1 {
+                .suncontent {
+                    .subcon1 {
+                        padding-top: 20px;
+                        .row {
+                            .ico1 {
+                                i {
+                                    padding: 20px;
+                                    font-size: 20px;
+                                    border-radius: 50px;
+                                }
+                            }
+                            .con1 {
+                                h5 {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                    .subcon2 {
+                        padding-top: 20px;
+                        .row {
+                            .ico2 {
+                                i {
+                                    padding: 20px;
+                                    font-size: 20px;
+                                    border-radius: 50px;
+                                }
+                            }
+                            .con2 {
+                                h5 {
+                                    font-size: 18px;
+                                }
+                                a {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                    .subcon3 {
+                        padding-top: 20px;
+                        .row {
+                            .btn1,
+                            .btn2 {
+                                padding: 20px 20px 20px 50px;
+                                button {
+                                    width: 65px;
+                                    padding: 20px;
+                                    border-radius: 50px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .context2 {
+                form {
+                    .row {
+                        padding-top: 20px;
+                        .submit-button {
+                            padding-top: 20px;
+                            button {
+                                width: 30%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: $uhddesktop) {
+    /* for sumo sized (mac) screens */
+    .container5 {
+        .head {
+            padding: 150px;
+            h1 {
+                font-size: 78px;
+            }
+        }
+        .content-row {
+            padding: 100px 0px;
+            margin: 0px 500px 0px 500px;
+        }
+    }
+}
+@media only screen and (max-device-width: $mobile) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .container5 {
+        .head {
+            padding: 50px;
+            h1 {
+                font-size: 34px;
+            }
+        }
+        .content-row {
+            display: flex;
+            flex-direction: column;
+            padding: 30px 15px;
+            margin-right: 0px;
+            .context1 {
+                text-align: center;
+                .suncontent {
+                    h3 {
+                        font-weight: 700;
+                        font-size: 24px;
+                    }
+                    .subcon1 {
+                        text-align: center;
+                        padding: 10px;
+                        .row {
+                            .ico1 {
+                                i {
+                                    padding: 20px;
+                                    font-size: 20px;
+                                }
+                            }
+                            .con1 {
+                                padding: 10px;
+                            }
+                        }
+                    }
+                    .subcon2 {
+                        text-align: center;
+                        padding: 10px;
+                        .row {
+                            .ico2 {
+                                i {
+                                    padding: 20px;
+                                    font-size: 20px;
+                                }
+                            }
+                            .con2 {
+                                padding: 10px;
+                            }
+                        }
+                    }
+                    .subcon3 {
+                        text-align: center;
+                        .row {
+                            .btn1,
+                            .btn2 {
+                                padding: 10px;
+                                button {
+                                    width: 55px;
+                                    padding: 15px;
+                                    border-radius: 30px;
+                                    a {
+                                        i {
+                                            padding: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .context2 {
+                form {
+                    h3 {
+                        text-align: center;
+                        padding: 10px;
+                        font-weight: 700;
+                        font-size: 24px;
+                    }
+                    .submit-button {
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (device-width: $tablet) {
+    /* default iPad screens */
+    .container5 {
+        .head {
+            padding: 80px;
+            h1 {
+                font-size: 36px;
+            }
+        }
+        .content-row {
+            display: flex;
+            flex-direction: column;
+            padding: 30px 15px;
+            margin-right: 0px;
+            .context1 {
+                text-align: center;
+                .suncontent {
+                    h3 {
+                        font-weight: 700;
+                        font-size: 26px;
+                    }
+                    .subcon1 {
+                        text-align: center;
+                        padding: 10px;
+                        .row {
+                            .ico1 {
+                                i {
+                                    padding: 20px;
+                                    font-size: 20px;
+                                }
+                            }
+                            .con1 {
+                                padding: 10px;
+                            }
+                        }
+                    }
+                    .subcon2 {
+                        text-align: center;
+                        padding: 10px;
+                        .row {
+                            .ico2 {
+                                i {
+                                    padding: 20px;
+                                    font-size: 20px;
+                                }
+                            }
+                            .con2 {
+                                padding: 10px;
+                            }
+                        }
+                    }
+                    .subcon3 {
+                        text-align: center;
+                        .row {
+                            .btn1,
+                            .btn2 {
+                                padding: 10px;
+                                button {
+                                    width: 55px;
+                                    padding: 15px;
+                                    border-radius: 30px;
+                                    a {
+                                        i {
+                                            padding: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .context2 {
+                form {
+                    h3 {
+                        text-align: center;
+                        padding: 10px;
+                        font-weight: 700;
+                        font-size: 26px;
+                    }
+                    .submit-button {
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

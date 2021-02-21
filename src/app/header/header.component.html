@@ -1,0 +1,40 @@
+<div class="header f-fam shadow sticky-lg-top">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <div class="logopad">
+                <div class="logo">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid" src="assets/Images/header/logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item" *ngFor="let item of menus">
+                        <a class="nav-link" aria-current="page" (click)="menuLink(item.url)" [ngClass]="{'active': item.active}">{{item.name}}</a>
+                    </li>
+                    <div class="socialmain">
+                        <li class="socialicons">
+                            <a href="https://www.facebook.com/Dsquaretaxi-100111888796626/" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+                            <a href="https://www.instagram.com/dsquaretaxi/" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://twitter.com/dsquaretaxi" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.youtube.com/channel/UCv93Im4pyd13W421TbKkbyQ/featured"
+                                target="_blank"><i class="fab fa-youtube"></i></a>
+                        </li>
+                    </div>
+                </ul>
+                <form class="d-flex login">
+                    <a name="" id="" class="btn btn-outline-dark btn1 me-2" href="#" role="button">Login</a>
+                    <a name="" id="" class="btn btn-outline-dark btn2" href="#" role="button">Register</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+</div>
