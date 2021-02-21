@@ -1,0 +1,233 @@
+@import "../Common.scss";
+.header {
+    .navbar {
+        background: #fbfbfb;
+        padding: 0px;
+        .container-fluid {
+            .logopad {
+                .logo {
+                    background: $primary;
+                }
+            }
+
+            .navbar-collapse {
+                justify-content: space-evenly;
+                .navbar-nav {
+                    cursor: pointer;
+
+                    .nav-item {
+                        padding: 0px;
+
+                        a {
+                            font-weight: 900;
+                        }
+                    }
+                    .socialmain {
+                        .socialicons {
+                            a {
+                                text-decoration: none;
+                                color: #a5abb7;
+                            }
+                            a:hover {
+                                background: $primary;
+                                color: $secondary;
+                                border-radius: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $laptop) {
+    /* styles for browsers larger than 960px; */
+    .header {
+        .navbar {
+            height: 55px;
+            .container-fluid {
+                .logopad {
+                    z-index: 100;
+                    padding-left: 50px;
+                    .logo {
+                        img {
+                            padding: 10px 15px 10px 15px;
+                            width: 140px;
+                        }
+                    }
+                }
+                .navbar-collapse {
+                    .navbar-nav {
+                        .nav-item {
+                            a:hover {
+                                border-top: 4px solid $primary;
+                                color: $secondary;
+                            }
+                        }
+                        .socialmain {
+                            align-self: center;
+                            .socialicons {
+                                text-align: start;
+                                a {
+                                    padding: 8px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: $desktop) {
+    /* styles for browsers larger than 1440px; */
+    .header {
+        .navbar {
+            padding: 0px;
+            height: 80px;
+            .container-fluid {
+                .logopad {
+                    padding-left: 150px;
+                    z-index: 100;
+                    .logo {
+                        img {
+                            padding: 20px;
+                            width: 180px;
+                        }
+                    }
+                }
+
+                .navbar-collapse {
+                    .navbar-nav {
+                        .nav-item {
+                            a:hover {
+                                border-top: 4px solid $primary;
+                                color: $secondary;
+                            }
+                        }
+                        .socialmain {
+                            align-self: center;
+                            .socialicons {
+                                padding: 4px;
+                                a {
+                                    padding: 8px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $uhddesktop) {
+    /* for sumo sized (mac) screens */
+    .header {
+        .navbar {
+            padding: 0px;
+            height: 80px;
+            .container-fluid {
+                .logopad {
+                    padding-left: 150px;
+                    z-index: 100;
+                    .logo {
+                        img {
+                            padding: 30px;
+                            width: 200px;
+                        }
+                    }
+                }
+                .navbar-collapse {
+                    .navbar-nav {
+                        .nav-item {
+                            padding: 0px;
+                            a {
+                                font-size: 24px;
+                            }
+                            a:hover {
+                                border-top: 4px solid $primary;
+                                color: $secondary;
+                            }
+                        }
+                        .socialmain {
+                            align-self: center;
+                            .socialicons {
+                                padding: 4px;
+                                a {
+                                    padding: 8px;
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-device-width: $mobile) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .header {
+        .navbar {
+            .container-fluid {
+                .logopad {
+                    .logo {
+                        img {
+                            padding: 5px 10px 5px 10px;
+                            width: 100px;
+                        }
+                    }
+                }
+                .navbar-collapse {
+                    .navbar-nav {
+                        padding: 10px;
+                        .socialicons {
+                            text-align: start;
+                            padding: 10px;
+                            a {
+                                padding: 8px;
+                            }
+                        }
+                    }
+                    .login {
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (device-width: $tablet) {
+    /* default iPad screens */
+    .header {
+        .navbar {
+            .container-fluid {
+                .logopad {
+                    .logo {
+                        img {
+                            padding: 5px 10px 5px 10px;
+                            width: 140px;
+                        }
+                    }
+                }
+                .navbar-collapse {
+                    .navbar-nav {
+                        padding: 10px;
+                        .socialicons {
+                            text-align: start;
+                            padding: 10px;
+                            a {
+                                padding: 8px;
+                            }
+                        }
+                    }
+                    .login {
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

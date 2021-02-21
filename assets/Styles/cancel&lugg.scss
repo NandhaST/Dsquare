@@ -1,0 +1,141 @@
+.container1 {
+    .content2 {
+        .tablemain {
+            .table {
+                .tablehead {
+                    .td1 {
+                        font-weight: bold;
+                        background-color: $primary;
+                    }
+                    .td2 {
+                        text-align: center;
+                        font-weight: bold;
+                        background-color: $primary;
+                        border: $primary;
+                    }
+                }
+                .tablehead1 {
+                    .td3 {
+                        text-align: center;
+                        font-weight: bold;
+                        background-color: $primary;
+                    }
+                }
+                .tablebody2,
+                .tablebody3 {
+                    .td4 {
+                        text-align: center;
+                        border: 1px solid $primary;
+                    }
+                    .td5 {
+                        border: 1px solid $primary;
+                    }
+                }
+                .tablebottom{
+                    background:$primary;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $laptop) {
+    /* styles for browsers larger than 960px; */
+    .container1 {
+        padding: 60px 30px 60px 30px;
+        .content1 {
+            h3 {
+                font-size: 24px;
+            }
+        }
+        .content2 {
+            padding-top: 20px;
+            h3 {
+                font-size: 24px;
+            }
+            .tablemain {
+                padding-top: 30px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: $desktop) {
+    /* styles for browsers larger than 1440px; */
+    .container1 {
+        width: 70%;
+        padding: 60px 0px 60px 0px;
+        .content1 {
+            h3 {
+                font-size: 32px;
+            }
+        }
+        .content2 {
+            padding-top: 20px;
+            h3 {
+                font-size: 32px;
+            }
+            .tablemain {
+                padding-top: 30px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: $uhddesktop) {
+    /* for sumo sized (mac) screens */
+    .container1 {
+        .content1 {
+            h3 {
+                font-size: 38px;
+            }
+        }
+        .content2 {
+            padding-top: 20px;
+            h3 {
+                font-size: 38px;
+            }
+            .tablemain {
+                padding-top: 30px;
+            }
+        }
+    }
+}
+@media only screen and (max-device-width: $mobile) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .container1 {
+        padding: 20px 10px 20px 10px;
+        .content1 {
+            h3 {
+                font-size: 24px;
+            }
+        }
+        .content2 {
+            padding-top: 20px;
+            h3 {
+                font-size: 24px;
+            }
+            .tablemain {
+                padding-top: 30px;
+            }
+        }
+    }
+}
+@media only screen and (device-width: $tablet) {
+    /* default iPad screens */
+    .container1 {
+        padding: 40px 20px 40px 20px;
+        .content1 {
+            h3 {
+                font-size: 24px;
+            }
+        }
+        .content2 {
+            padding-top: 20px;
+            h3 {
+                font-size: 24px;
+            }
+            .tablemain {
+                padding-top: 30px;
+            }
+        }
+    }
+}

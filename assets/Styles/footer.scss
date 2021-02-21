@@ -1,0 +1,219 @@
+.container3 {
+    background: #ffffff;
+    .footercontent {
+        .btnrow {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 100;
+            .scrolltop {
+                #backToTopID {
+                    border: 2px solid $primary;
+                }
+            }
+        }
+        .footbtn {
+            .btn {
+                a {
+                    button {
+                        border-radius: 4px;
+                        text-decoration: none;
+                        color: #ffffff;
+                    }
+                    button:hover {
+                        background: $primary;
+                        color: #ffffff;
+                        border: $primary;
+                    }
+                }
+            }
+        }
+        .footcontext {
+            .texthighlight:hover {
+                color: $secondary;
+                border-bottom: 2px solid $secondary;
+            }
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #a5abb7;
+            }
+            .footercontext2 {
+                .link1,
+                .link2 {
+                    a {
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        color: #a5abb7;
+                    }
+                    a:hover {
+                        color: $secondary;
+                        border-bottom: 2px solid $secondary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $laptop) {
+    /* styles for browsers larger than 960px; */
+    .container3 {
+        .footercontent {
+            text-align: center;
+            .footbtn {
+                justify-content: center;
+                padding-top: 30px;
+                .btn {
+                    a {
+                        button {
+                            width: 120px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            .footcontext {
+                justify-content: center;
+                padding-top: 50px;
+                .par1,
+                .par2 {
+                    font-size: 14px;
+                    padding: 10px;
+                }
+                .link1,
+                .link2 {
+                    margin: 11px;
+                }
+                .footercontext2 {
+                    font-size: 14px;
+                    .padding {
+                        padding: 0px;
+                        border-left: solid $secondary;
+                        height: 28px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: $desktop) {
+    /* styles for browsers larger than 1440px; */
+    .container3 {
+        .footercontent {
+            .footbtn {
+                padding-top: 30px;
+                .btn {
+                    button {
+                        width: 150px;
+                    }
+                }
+            }
+            .footcontext {
+                padding-top: 50px;
+                .footercontext2 {
+                    .padding {
+                        padding: 0px;
+                        border-left: solid $secondary;
+                        height: 30px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-device-width: $mobile) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .container3 {
+        padding-top: 20px;
+        .footercontent {
+            text-align: center;
+            justify-content: center;
+            .footbtn {
+                display: flex;
+                flex-direction: column;
+                font-size: 12px;
+                .btn {
+                    a {
+                        button {
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+            .footcontext {
+                display: flex;
+                flex-direction: column;
+                font-size: 12px;
+                padding-top: 20px;
+                .par1 {
+                    padding: 10px 0px 10px 0px;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                }
+                .footercontext2 {
+                    justify-content: center;
+                    .link1,
+                    .link2 {
+                        padding: 0px 5px 0px 5px;
+                    }
+                    .padding {
+                        border-left: solid $secondary;
+                        height: 15px;
+                        margin-top: 2px;
+                    }
+                }
+                .par2 {
+                    padding: 10px 0px 10px 0px;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (device-width: $tablet) {
+    /* default iPad screens */
+    .container3 {
+        .footercontent {
+            text-align: center;
+            .footbtn {
+                justify-content: center;
+                padding-top: 30px;
+                .btn {
+                    a {
+                        button {
+                            width: 120px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            .footcontext {
+                justify-content: center;
+                padding-top: 50px;
+                .par1,
+                .par2 {
+                    font-size: 12px;
+                    padding: 10px;
+                }
+                .link1,
+                .link2 {
+                    margin: 11px;
+                }
+                .footercontext2 {
+                    font-size: 12px;
+                    .padding {
+                        padding: 0px;
+                        border-left: solid $secondary;
+                        height: 20px;
+                        margin-top: 8px;
+                    }
+                }
+            }
+        }
+    }
+}

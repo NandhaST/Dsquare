@@ -1,0 +1,123 @@
+.container6 {
+    .maincon {
+        .tablemain {
+            tbody {
+                .trow1 {
+                    border: 1px solid $primary;
+                    td {
+                        background: $primary;
+                        text-transform: uppercase;
+                    }
+                }
+                .trow2,
+                .trow3,
+                .trow4,
+                .trow5,
+                .trow6 {
+                    border: 1px solid $primary;
+                }
+                .tcell1,
+                .tcell2,
+                .tcell3,
+                .tcell4,
+                .tcell5,
+                .tcell6,
+                .tcell7,
+                .tcell8,
+                .tcell9,
+                .tcell10,
+                .tcell11,
+                .tcell12,
+                .tcell13,
+                .tcell14,
+                .tcell15 {
+                    border: 1px solid $primary;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $laptop) {
+    /* styles for browsers larger than 960px; */
+    .container6 {
+        .maincon {
+            padding: 40px 0px 40px 0px;
+            .subheader {
+                font-size: larger;
+                font-weight: 600;
+            }
+        }
+    }
+}
+@media only screen and (min-width: $desktop) {
+    /* styles for browsers larger than 1440px; */
+    .container6 {
+        .maincon {
+            margin: 0px 158px;
+            padding: 50px 0px 50px 0px;
+            h2 {
+                font-size: x-large;
+            }
+            .subheader {
+                font-size: larger;
+                font-weight: 600;
+            }
+            .tablemain {
+                tbody {
+                    .trow1 {
+                        td {
+                            padding: 20px;
+                        }
+                    }
+                    .trow2,
+                    .trow3,
+                    .trow4,
+                    .trow5,
+                    .trow6 {
+                        td {
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: $uhddesktop) {
+    /* for sumo sized (mac) screens */
+    .container6 {
+        .maincon {
+            margin: 0px 558px;
+            padding: 120px 0px 120px 0px;
+            font-size: x-large;
+            h2 {
+                font-size: xx-large;
+            }
+        }
+    }
+}
+@media only screen and (max-device-width: $mobile) {
+    /* styles for mobile browsers smaller than $mobile; (iPhone) */
+    .container6 {
+        .maincon {
+            padding: 30px 0px 30px 0px;
+            .subheader {
+                font-size: large;
+                font-weight: 600;
+            }
+        }
+    }
+}
+@media only screen and (device-width: $tablet) {
+    /* default iPad screens */
+    .container6 {
+        .maincon {
+            padding: 30px 0px 30px 0px;
+            .subheader {
+                font-size: large;
+                font-weight: 600;
+            }
+        }
+    }
+}

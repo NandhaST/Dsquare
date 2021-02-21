@@ -1,0 +1,314 @@
+.container2 {
+    .content2 {
+        .maincon {
+            .subcon {
+                .context9 {
+                    .list1 {
+                        overflow-y: scroll;
+                        scroll-behavior: smooth;
+                    }
+                    ol {
+                        list-style-type: none;
+                        counter-reset: item;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    ol > li {
+                        display: table;
+                        counter-increment: item;
+                        margin-bottom: 0.6em;
+                    }
+
+                    ol > li:before {
+                        content: counters(item, ".") ")";
+                        display: table-cell;
+                        padding-right: 0.6em;
+                    }
+                    li ol > li {
+                        margin: 0;
+                    }
+
+                    li ol > li:before {
+                        content: counters(item, ".") ")";
+                    }
+                    li {
+                        .tablepolicy {
+                            border: 1px solid $secondary;
+                            tbody {
+                                p {
+                                    margin: 0px;
+                                }
+                                .trow1,
+                                .trow2,
+                                .trow3,
+                                .trow4,
+                                .trow5,
+                                .trow6,
+                                .trow7 {
+                                    border: 1px solid $secondary;
+                                    .tcell1,
+                                    .tcell2,
+                                    .tcell3,
+                                    .tcell4,
+                                    .tcell5,
+                                    .tcell6,
+                                    .tcell7,
+                                    .tcell8,
+                                    .tcell9,
+                                    .tcell10,
+                                    .tcell11,
+                                    .tcell12,
+                                    .tcell13,
+                                    .tcell14,
+                                    .tcell15,
+                                    .tcell16,
+                                    .tcell17,
+                                    .tcell18,
+                                    .tcell19,
+                                    .tcell20,
+                                    .tcell21 {
+                                        border: 1px solid $secondary;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    p {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $laptop) {
+    /* styles for browsers larger than 960px; */
+    .container2 {
+        padding: 40px 25px 40px 25px;
+        .content1 {
+            h2 {
+                font-size: 24px;
+                font-weight: 650;
+                padding: 10px;
+            }
+            .con1last {
+                font-size: 16px;
+                word-spacing: 4px;
+            }
+        }
+        .content2 {
+            padding-top: 30px;
+            .maincon {
+                h2 {
+                    padding: 10px;
+                    font-size: 24px;
+                    font-weight: 650;
+                }
+                .subcon {
+                    .context9 {
+                        h3 {
+                            font-size: 16px;
+                        }
+                        .list1 {
+                            height: 500px;
+                        }
+                        p {
+                            padding: 10px;
+                            font-size: 16px;
+                            word-spacing: 4px;
+                        }
+                        li {
+                            .tablepolicy {
+                                width: 75%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: $desktop) {
+    /* styles for browsers larger than 1440px; */
+    .container2 {
+        padding: 50px 0px 50px 0px;
+        margin: 0px 158px 0px 158px;
+        .content1 {
+            h2 {
+                padding: 20px;
+            }
+            .con1last {
+                word-spacing: 2px;
+                font-size: 16px;
+                white-space: nowrap;
+            }
+        }
+        .content2 {
+            padding-top: 30px;
+            .maincon {
+                h2 {
+                    padding: 20px;
+                }
+                .subcon {
+                    .context9 {
+                        .list1 {
+                            height: 800px;
+                        }
+                        p {
+                            padding: 10px;
+                            word-spacing: 2px;
+                            font-size: 16px;
+                            white-space: nowrap;
+                        }
+                        li {
+                            .tablepolicy {
+                                width: 75%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: $uhddesktop) {
+    /* for sumo sized (mac) screens */
+    .container2 {
+        padding: 100px 0px 100px 0px;
+        margin: 0px 700px 0px 700px;
+        .content1 {
+            h2 {
+                padding: 20px;
+                font-size: 32px;
+            }
+            .con1last {
+                word-spacing: 2px;
+                font-size: 16px;
+                white-space: nowrap;
+            }
+        }
+        .content2 {
+            padding-top: 30px;
+            .maincon {
+                h2 {
+                    padding: 20px;
+                    font-size: 32px;
+                }
+                .subcon {
+                    .context9 {
+                        .list1 {
+                            height: 800px;
+                        }
+                        p {
+                            padding: 10px;
+                            word-spacing: 2px;
+                            font-size: 16px;
+                            white-space: nowrap;
+                        }
+                        li {
+                            .tablepolicy {
+                                width: 75%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-device-width: $mobile) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .container2 {
+        padding: 20px 10px 20px 10px;
+        .content1 {
+            h2 {
+                font-size: 24px;
+                font-weight: 650;
+                padding: 10px;
+            }
+            .con1last {
+                font-size: 16px;
+                word-spacing: 4px;
+            }
+        }
+        .content2 {
+            padding-top: 30px;
+            .maincon {
+                h2 {
+                    padding: 10px;
+                    font-size: 24px;
+                    font-weight: 650;
+                }
+                .subcon {
+                    .context9 {
+                        h3 {
+                            font-size: 16px;
+                        }
+                        .list1 {
+                            height: 500px;
+                        }
+                        p {
+                            padding: 10px;
+                            font-size: 16px;
+                            word-spacing: 4px;
+                        }
+                        li {
+                            .tablepolicy {
+                                width: 75%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (device-width: $tablet) {
+    /* default iPad screens */
+    .container2 {
+        padding: 30px 20px 30px 20px;
+        .content1 {
+            h2 {
+                font-size: 24px;
+                font-weight: 650;
+                padding: 10px;
+            }
+            .con1last {
+                font-size: 16px;
+                word-spacing: 4px;
+            }
+        }
+        .content2 {
+            padding-top: 30px;
+            .maincon {
+                h2 {
+                    padding: 10px;
+                    font-size: 24px;
+                    font-weight: 650;
+                }
+                .subcon {
+                    .context9 {
+                        h3 {
+                            font-size: 16px;
+                        }
+                        .list1 {
+                            height: 500px;
+                        }
+                        p {
+                            padding: 10px;
+                            font-size: 16px;
+                            word-spacing: 4px;
+                        }
+                        li {
+                            .tablepolicy {
+                                width: 75%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
